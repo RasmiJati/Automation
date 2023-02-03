@@ -1,7 +1,7 @@
 import openpyxl
 
 inventory_file = openpyxl.load_workbook("Inventory.xlsx", )
-product_list = inventory_file["Sheet1"]
+product_list = inventory_file["Sheet1"]   # sheet1 from excel file
 products_per_supplier = {}  # empty dictionary
 total_value_per_supplier = {}
 products_under_10_inventory = {}
